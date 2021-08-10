@@ -100,7 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -118,7 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/init.qti.keymaster.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.keymaster.sh \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/bin/keymasterd:$(TARGET_COPY_OUT_VENDOR)/bin/keymasterd \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
@@ -157,6 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -195,7 +200,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
@@ -213,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/keymasterd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/keymasterd.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
@@ -527,7 +534,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libhydra_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhydra_common.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
@@ -555,7 +561,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libmodemapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodemapi.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
@@ -648,6 +653,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
@@ -672,6 +679,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccvndhal@1.0.so \
@@ -686,8 +694,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.7.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
@@ -695,6 +705,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/xiaomi/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
@@ -729,7 +741,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
-    vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
+    vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
